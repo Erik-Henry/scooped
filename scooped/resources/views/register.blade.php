@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Drivers</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -47,7 +47,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 14px;
             }
 
             .links > a {
@@ -66,36 +66,46 @@
         </style>
     </head>
     <body>
+		@include ('partials.navbar')
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
-                </div>
+                    <form method ="POST" action="/register">
+						{{csrf_field()}}
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name" name="name">
+						
+						</div>
+						
+						<div class="form-group">
+							
+							<label for="email">E-mail</label>
+							<input type="email" class="form-control" id="email" name="email">
+						</div>
+						
+						<div class="form-group">
+							
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password" name="password">
+						</div>
+						
+						<div class="form-group">
+							
+							<label for="password_confirmation">Confirm Password</label>
+							<input type="password" class="form-control" id="password_confirmation" name="password_confirmation">
+						</div>
+						
+						<div class="form-group">
+							
+							<button type="submit" class="btn btn-primary">Register</button>
+						</div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+					  <form>
                 </div>
             </div>
         </div>
     </body>
 </html>
+

@@ -36,6 +36,7 @@
     <a class="py-2 d-none d-md-inline-block font-weight-bold" href="ride">Ride</a>
     <a class="py-2 d-none d-md-inline-block font-weight-bold" href="history">History</a>
     <a class="py-2 d-none d-md-inline-block font-weight-bold" href="login">Login</a>
+    <a class="py-2 d-none d-md-inline-block font-weight-bold" href="register">Register</a>
   </div>
 </nav>
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" ></div>
