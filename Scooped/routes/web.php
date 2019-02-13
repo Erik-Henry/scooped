@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('template');
 });
+
+Route::get('/drivers', function () {
+    return view('drivers');
+});
+
+Route::get('/ride', function () {
+    return view('ride');
+});
+
+Route::get('/history', function () {
+    return view('history');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
