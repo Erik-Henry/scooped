@@ -38,11 +38,11 @@
   </div>
 </nav>
 
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"></div>
-  <div class="col-md-5 p-lg-5 mx-auto my-5" style="background-image: url(https://news.uoit.ca/archives/2018/10/images/thumbnail-smokefreecampus.jpg); height: 250px; width: 600px;">
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" ></div>
+  <div class="col-md-5 p-lg-5 mx-auto my-5 text-center" style="background-image: url(https://news.uoit.ca/archives/2018/10/images/thumbnail-smokefreecampus.jpg); height: 250px; width: 600px;">
     <h1 class="display-4 font-weight-bold text-white text-center">Scooped</h1>
     <p class="lead font-weight-bold text-white text-center">A platform for students to connect and rideshare commuting to school</p>
-    <a class="btn btn-outline-secondary text-white text-align: center" href="#">Get Started</a>
+    <a class="btn btn-outline-secondary text-white " href="login">Get Started</a>
   </div>
   <div class="product-device shadow-sm d-none d-md-block"></div>
   <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -51,15 +51,17 @@
 <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
   <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
     <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
+      <h2 class="display-5">Driver</h2>
+      <p class="lead">Become a Scooped driver now!</p>
+      <a class="btn btn-outline-secondary text-white " href="#">Learn more</a>
     </div>
     <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
   </div>
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
+      <h2 class="display-5">Rider</h2>
+      <p class="lead">Get picked up wherever with <br/> the Scooped mobile app!</p>
+      <a class="btn btn-outline-secondary text-black" href="#">Learn more</a>
     </div>
     <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
   </div>
