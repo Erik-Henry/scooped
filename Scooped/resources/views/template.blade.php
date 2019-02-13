@@ -38,11 +38,11 @@
   </div>
 </nav>
 
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-  <div class="col-md-5 p-lg-5 mx-auto my-5">
-    <h1 class="display-4 font-weight-normal">Scooped</h1>
-    <p class="lead font-weight-normal">A platform for students to connect and rideshare commuting to school</p>
-    <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"></div>
+  <div class="col-md-5 p-lg-5 mx-auto my-5" style="background-image: url(https://news.uoit.ca/archives/2018/10/images/thumbnail-smokefreecampus.jpg); height: 250px; width: 600px;">
+    <h1 class="display-4 font-weight-bold text-white text-center">Scooped</h1>
+    <p class="lead font-weight-bold text-white text-center">A platform for students to connect and rideshare commuting to school</p>
+    <a class="btn btn-outline-secondary text-white text-align: center" href="#">Get Started</a>
   </div>
   <div class="product-device shadow-sm d-none d-md-block"></div>
   <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
