@@ -1,82 +1,40 @@
 @include ('partials.navbar')
 
-  <div class="col-md-5 p-lg-5 mx-auto my-5 text-center" style="background-image: url(https://news.uoit.ca/archives/2018/10/images/thumbnail-smokefreecampus.jpg); height: 250px; width: 600px;">
-    <h1 class="display-4 font-weight-bold text-white text-center">Scooped</h1>
-    <p class="lead font-weight-bold text-white text-center">A platform for students to connect and rideshare commuting to school</p>
-    <a class="btn btn-outline-secondary text-white " href="login">Get Started</a>
+  <div class="col-md-3 p-lg-3 mx-auto my-3 text-center">
+    <h1 class="display-4 font-weight-bold text-black text-center">Scooped</h1>
+    <p class="lead font-weight-normal text-black text-center">A platform for Durham College & UOIT students to connect and rideshare commuting to school</p>
+    <a class="btn btn-outline-secondary text-black " href="login">Get Started</a>
   </div>
   <div class="product-device shadow-sm d-none d-md-block"></div>
   <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 </div>
+<div class ="col-md-5 p-lg-5 mx-auto my-5 text-center" style="background-image: url(https://news.uoit.ca/archives/2018/10/images/thumbnail-smokefreecampus.jpg); height: 250px; width: 600px;"></div>
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-    <div class="my-3 py-3">
+<div class="col-md-6 p-lg-5 mx-auto text-center d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden">
+  </div>
+
+  <div class="bg-dark mr-md-2 pt-2 px-2 pt-md-4 px-md-4 text-center text-white overflow-hidden">
+    <div class="my-2 py-2">
       <h2 class="display-5">Driver</h2>
       <p class="lead">Become a Scooped driver now!</p>
-      <a class="btn btn-outline-secondary text-white " href="#">Learn more</a>
+      <br/>
+      <a class="btn btn-outline-secondary text-white " href="drivers">Learn more</a>
     </div>
-    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
   </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
+
+  <div class="bg-primary mr-md-2 pt-2 px-2 pt-md-4 px-md-4 text-center text-white overflow-hidden">
+    <div class="my-2 p-2">
       <h2 class="display-5">Rider</h2>
       <p class="lead">Get picked up wherever with <br/> the Scooped mobile app!</p>
-      <a class="btn btn-outline-secondary text-black" href="#">Learn more</a>
+      <a class="btn btn-outline-secondary text-white" href="ride">Learn more</a>
     </div>
-    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
   </div>
-</div>
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+  <div class="bg-light mr-md-1 pt-1 px-1 pt-md-1 px-md-1 text-center overflow-hidden">
   </div>
-  <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-</div>
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-</div>
-
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
 </div>
 
 <footer class="container py-5">
