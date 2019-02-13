@@ -1,33 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Scooped</title>
+@include ('partials.navbar')
 
-    <!-- Bootstrap core CSS -->
-<link href="https://getbootstrap.com/docs/4.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="product.css" rel="stylesheet">
-  </head>
-  <body>
-    @include ('partials.navbar')
-
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" ></div>
   <div class="col-md-5 p-lg-5 mx-auto my-5 text-center" style="background-image: url(https://news.uoit.ca/archives/2018/10/images/thumbnail-smokefreecampus.jpg); height: 250px; width: 600px;">
     <h1 class="display-4 font-weight-bold text-white text-center">Scooped</h1>
     <p class="lead font-weight-bold text-white text-center">A platform for students to connect and rideshare commuting to school</p>
