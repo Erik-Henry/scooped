@@ -71,46 +71,38 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <form method="POST" action="/login">
-						@csrf
-
-						<div class="form-group row">
-							<label for="email" class="col-md-4 col-form-label text-md-right">E-mail Address</label>
-
-							<div class="col-md-6">
-								<input id="email" type="email" class="form-control" name="email" value="" required autofocus>
-
-							</div>
+                    <form method ="POST" action="/register">
+						{{csrf_field()}}
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name" name="name">
+						
+						</div>
+						
+						<div class="form-group">
+							
+							<label for="email">E-mail</label>
+							<input type="email" class="form-control" id="email" name="email">
+						</div>
+						
+						<div class="form-group">
+							
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password" name="password">
+						</div>
+						
+						<div class="form-group">
+							
+							<label for="password_confirmation">Confirm Password</label>
+							<input type="password" class="form-control" id="password_confirmation" name="password_confirmation">
+						</div>
+						
+						<div class="form-group">
+							
+							<button type="submit" class="btn btn-primary">Register</button>
 						</div>
 
-						<div class="form-group row">
-							<label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
-
-							<div class="col-md-6">
-								<input id="password" type="password" class="form-control" name="password" required>
-
-							</div>
-						</div>
-
-						<div class="form-group row">
-							<div class="col-md-6 offset-md-4">
-								<div class="form-check">
-									<input class="form-check-input" type="checkbox" name="remember" id="remember">
-										Remember Me
-									<label class="form-check-label" for="remember">
-									</label>
-								</div>
-							</div>
-						</div>
-
-						<div class="form-group row mb-0">
-							<div class="col-md-8 offset-md-4">
-								<button type="submit" class="btn btn-primary">
-									Submit
-								</button>
-							</div>
-						</div>
-					</form>
+					  <form>
                 </div>
             </div>
         </div>

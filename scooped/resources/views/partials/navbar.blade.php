@@ -8,5 +8,6 @@
     <a class="py-2 d-none d-md-inline-block" href="ride">Ride</a>
     <a class="py-2 d-none d-md-inline-block" href="history">History</a>
     <a class="py-2 d-none d-md-inline-block" href="login">Login</a>
+	<a class="py-2 d-none d-md-inline-block" href="register">Register</a>
   </div>
 </nav>
