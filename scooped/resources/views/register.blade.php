@@ -1,3 +1,4 @@
+@include ('partials.navbar')
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -13,17 +14,9 @@
 
         <!-- Styles -->
         <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
 
             .full-height {
-                height: 100vh;
+                height: 70vh;
             }
 
             .flex-center {
@@ -66,7 +59,7 @@
         </style>
     </head>
     <body>
-		@include ('partials.navbar')
+        <h1 class="display-4 font-weight-bold underline text-black text-center">Register</h1>
         <div class="flex-center position-ref full-height">
 
             <div class="content">

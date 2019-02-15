@@ -15,7 +15,7 @@
         <!-- Styles -->
         <style>
             .full-height {
-                height: 100vh;
+                height: 50vh;
             }
 
             .flex-center {
@@ -58,6 +58,7 @@
         </style>
     </head>
     <body>
+        <h1 class="display-4 font-weight-bold underline text-black text-center">Login</h1>
         <div class="flex-center position-ref full-height">
 
             <div class="content">
