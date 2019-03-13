@@ -64,6 +64,9 @@
                 <div class="title m-b-md">
                     Drivers page
                 </div>
+                <p class="lead font-weight-normal text-black text-center">Overview</p>
+                <p class="lead font-weight-normal text-black text-center">How it works</p>
+                <p class="lead font-weight-normal text-black text-center">Requirements</p>
             </div>
         </div>
     </body>
