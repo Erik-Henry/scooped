@@ -16,9 +16,9 @@
         <!-- Styles -->
         <style>
 
-            .full-height {
+            /*.full-height {
                 height: 100vh;
-            }
+            }*/
 
             .flex-center {
                 align-items: center;
@@ -54,9 +54,9 @@
                 text-transform: uppercase;
             }
 
-            .m-b-md {
+            /*.m-b-md {
                 margin-bottom: 30px;
-            }
+            }*/
         </style>
     </head>
     <body>
