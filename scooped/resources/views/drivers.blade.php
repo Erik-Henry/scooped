@@ -64,9 +64,9 @@
                 <div class="title m-b-md">
                     Drivers page
                 </div>
-                <p class="lead font-weight-normal text-black" href="overview">Overview</p>
-                <p class="lead font-weight-normal text-black" href="how">How it works</p>
-                <p class="lead font-weight-normal text-black" href="requirements">Requirements</p>
+                <a class="lead font-weight-normal text-black text-left" href="overview">Overview</p>
+                <a class="lead font-weight-normal text-black text-left" href="how">How it works</p>
+                <a class="lead font-weight-normal text-black text-left" href="requirements">Requirements</p>
             </div>
         </div>
     </body>
