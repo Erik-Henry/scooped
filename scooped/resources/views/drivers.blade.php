@@ -14,10 +14,10 @@
 
         <!-- Styles -->
         <style>
-            .full-height {
+/*            .full-height {
                 height: 100vh;
             }
-
+*/
             .flex-center {
                 align-items: center;
                 display: flex;
@@ -45,16 +45,16 @@
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 20px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
             }
 
-            .m-b-md {
+/*            .m-b-md {
                 margin-bottom: 30px;
-            }
+            }*/
         </style>
     </head>
     <body>
@@ -64,6 +64,9 @@
                 <div class="title m-b-md">
                     Drivers page
                 </div>
+                <a class="lead font-weight-normal text-black text-left" href="overview">Overview</p>
+                <a class="lead font-weight-normal text-black text-left" href="how">How it works</p>
+                <a class="lead font-weight-normal text-black text-left" href="requirements">Requirements</p>
             </div>
         </div>
     </body>

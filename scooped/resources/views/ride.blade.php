@@ -16,11 +16,11 @@
         <!-- Styles -->
         <style>
 
-            .full-height {
+            /*.full-height {
                 height: 100vh;
-            }
+            }*/
 
-            .flex-center {
+/*            .flex-center {
                 align-items: center;
                 display: flex;
                 justify-content: center;
@@ -34,7 +34,7 @@
                 position: absolute;
                 right: 10px;
                 top: 18px;
-            }
+            }*/
 
             .content {
                 text-align: center;
@@ -54,9 +54,9 @@
                 text-transform: uppercase;
             }
 
-            .m-b-md {
+            /*.m-b-md {
                 margin-bottom: 30px;
-            }
+            }*/
         </style>
     </head>
     <body>
