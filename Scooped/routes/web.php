@@ -43,3 +43,15 @@ Route::post('/register', function () {
     return view('register');
 });
 
+Route::get('/overview', function () {
+    return view('overview');
+});
+
+Route::get('/how', function () {
+    return view('how');
+});
+
+Route::get('/requirements', function () {
+    return view('requirements');
+});
+
