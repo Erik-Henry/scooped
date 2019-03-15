@@ -61,9 +61,13 @@
         <div class="flex-center position-ref full-height">
 
             <div class="content">
-                <div class="title m-b-md">
-                    Overview
-                </div>
+				<div class="col-md-3 p-lg-3 mx-auto my-3 text-center">
+					<h1 class="display-4 font-weight-bold text-black text-center">Requirements</h1>
+					<p class="lead font-weight-normal text-black text-center">In order to become a driver for Scooped, you must meet the following requirements:
+					Be a student
+					Have a valid driver's license</p>
+					<a class="btn btn-outline-secondary text-black " href="login">Get Started</a>
+				</div>
             </div>
         </div>
     </body>
