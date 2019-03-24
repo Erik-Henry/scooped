@@ -55,3 +55,11 @@ Route::get('/requirements', function () {
     return view('requirements');
 });
 
+Route::get('/requirementsride', function () {
+    return view('requirementsride');
+});
+
+Route::get('/howride', function () {
+    return view('howride');
+});
+
