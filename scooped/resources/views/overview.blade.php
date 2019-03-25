@@ -34,9 +34,27 @@
             .content {
                 text-align: center;
             }
+			
+			.p {
+                text-align: left;
+				text-indent: 50px;
+				position: relative;
+				left: 25%;
+				width: 60%;
+            }
+			
+			.btn {
+				position: relative;
+				left: 5%;
+				width: 15%;
+            }
 
             .title {
                 font-size: 84px;
+            }
+			.side {
+				position: relative;
+				left: 10%;
             }
 
             .links > a {
@@ -57,12 +75,14 @@
                 <div class="title m-b-md">
                     Overview
                 </div>
+					<img class="side" align="left" src="https://i.imgur.com/Qm2JHBg.png"/>
                     <br/>
                     <br/>
-                    <p>Scooped is an application that serves as a platform which assists students in finding rides to and from school. Drivers post their starting and ending location, and students headed to the same area can sign up for a seat in the driver’s car. This provides value to drivers, as the fee they charge per seat helps them cover the expenses of commuting. Riders receive value through the cost and time savings they realize. With the cost of public transportation increasing, riders could realize savings of over 50% per ride. Public transportation can also be very time consuming, as multiple transfers are sometimes required. Not only this, but stops are more likely than not some distance away from a rider’s final destination. With an affordable and more time friendly alternative, students will be more willing to take these institutions into consideration, leading to increased registration. Schools will see an increase in funding and status, allowing them to provide better resources to students.
+                    <p class = "p">Scooped is an application that serves as a platform which assists students in finding rides to and from school. Drivers post their starting and ending location, and students headed to the same area can sign up for a seat in the driver’s car. This provides value to drivers, as the fee they charge per seat helps them cover the expenses of commuting. Riders receive value through the cost and time savings they realize. With the cost of public transportation increasing, riders could realize savings of over 50% per ride. Public transportation can also be very time consuming, as multiple transfers are sometimes required. Not only this, but stops are more likely than not some distance away from a rider’s final destination. </p>
+					<p class = "p">With an affordable and more time friendly alternative, students will be more willing to take these institutions into consideration, leading to increased registration. Schools will see an increase in funding and status, allowing them to provide better resources to students.</p>
                     <br/><br/><br/>
 
-                <a class="btn btn-outline-secondary text-black " href="login">Get Started</a>
+                <a class="content btn btn-outline-secondary text-black " href="login">Get Started</a>
             </div>
         </div>
     </body>
