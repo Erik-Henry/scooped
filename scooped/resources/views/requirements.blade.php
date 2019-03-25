@@ -14,9 +14,6 @@
 
         <!-- Styles -->
         <style>
-            .full-height {
-                height: 100vh;
-            }
 
             .flex-center {
                 align-items: center;
@@ -52,22 +49,30 @@
                 text-transform: uppercase;
             }
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
+            li {
+                  text-align: left;
+                }
+
         </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-
             <div class="content">
-				<div class="col-md-3 p-lg-3 mx-auto my-3 text-center">
-					<h1 class="display-4 font-weight-bold text-black text-center">Requirements</h1>
-					<p class="lead font-weight-normal text-black text-center">In order to become a driver for Scooped, you must meet the following requirements:
-					Be a student
-					Have a valid driver's license</p>
+					<div class="title m-b-md">
+                        Requirements
+                    </div>
+                    <br/>
+                    <br/>
+					<p><b>In order to become a driver for Scooped, you must meet the following requirements</b>
+                    <br/><br/>
+                    <ul>
+					   <li>Be a Durham College student</li>
+					   <li>Have a valid G level provincial driver's license</li>
+                       <li>Be using an eligible vehicle</li>
+                    </ul>
+                    </p>
+                    <br/><br/><br/>
 					<a class="btn btn-outline-secondary text-black " href="login">Get Started</a>
-				</div>
             </div>
         </div>
     </body>

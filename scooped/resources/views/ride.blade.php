@@ -20,7 +20,7 @@
                 height: 100vh;
             }*/
 
-/*            .flex-center {
+            .flex-center {
                 align-items: center;
                 display: flex;
                 justify-content: center;
@@ -34,7 +34,7 @@
                 position: absolute;
                 right: 10px;
                 top: 18px;
-            }*/
+            }
 
             .content {
                 text-align: center;
@@ -64,8 +64,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Ride page
+                    Riders page
                 </div>
+                <br/>
+                <br/>
+                <a class="lead font-weight-normal text-black text-left" href="howride">How it works</p>
+                <a class="lead font-weight-normal text-black text-left" href="requirementsride">Requirements</p>
             </div>
         </div>
     </body>

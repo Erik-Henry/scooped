@@ -14,9 +14,6 @@
 
         <!-- Styles -->
         <style>
-            .full-height {
-                height: 100vh;
-            }
 
             .flex-center {
                 align-items: center;
@@ -52,18 +49,14 @@
                 text-transform: uppercase;
             }
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
         </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-
             <div class="content">
-                <div class="title m-b-md">
-                    Overview
-                </div>
+                    <div class="title m-b-md">
+                        How it works
+                    </div>
             </div>
         </div>
     </body>
